@@ -1,0 +1,70 @@
+body
+{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url('paris.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav
+{
+    background-color: transparent;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+nav #logo
+{
+    color: rgb(175, 102, 12);
+    font-size: 35px;
+    font-style: italic;
+}
+nav #link a
+{
+    color: #ddd;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in 0s;
+}
+nav #link a:hover
+{
+    color: rgb(175, 102, 12);
+}
+#content
+{
+    align-items: center;
+    text-align: center;
+    margin-top: 10em;
+}
+#content h1
+{
+    color: #fff;
+    font-size: 3.5em;
+    line-height: 0.8;
+}
+#content p
+{
+    color: #ddd;
+    font-size: 20px;
+}
+#content #btn
+{
+    color: #fff;
+    background-color: rgb(175, 102, 12);
+    border-radius: 50px;
+    width: 35%;
+    padding: 1em;
+    text-decoration: none;
+    margin-top: 2em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    transition: all 0.3s ease-in 0s;
+}
+#content #btn:hover
+{
+    background-color: rgba(0, 0, 0, 0.9);
+}
